@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Ejecutar-PruebaMaquinas</actionName>
+            <displayName>Ejecutar PruebaMaquinas</displayName>
+            <goals>
+                <goal>compile</goal>
+                <goal>exec:java</goal>
+                <goal>-Dexec.mainClass=pa.PruebaMaquinas</goal>
+                
+            </goals>
+        </action>
+        
+        
+    </actions>
